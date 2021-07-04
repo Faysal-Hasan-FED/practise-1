@@ -1,0 +1,225 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+  body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#header{
+  margin-bottom: 150px;
+}
+ #header h1{
+  font-size: 70px;
+  padding-bottom: 50px;
+  
+}
+
+h2{
+  font-size: 36px;
+  padding-bottom: 25px;
+}
+#header{
+  background: url(images/best.jpg) no-repeat;
+  height: 100vh;
+}
+
+#header h1{
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+#header h1 a{
+  text-decoration: none;
+  color: #ffd14e;
+}
+
+#header h2{
+  padding-left: 30px;
+  color: whitesmoke;
+}
+
+.button{
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 10px 40px;
+  background-image: linear-gradient(lightgreen,cyan);
+  border-radius: 10px;
+}
+
+.button:hover{
+  background: lightpink;
+  color: whitesmoke;
+}
+
+#services{
+  margin-bottom: 150px;
+}
+
+#services .container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#services h1{
+  font-size: 36px;
+  padding: 15px;
+  color: rgb(43, 14, 14);
+}
+#services .title{
+  font-size: 50px;
+  color: orange;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+#services .container .box{
+  padding: 10px;
+  background-image: linear-gradient(cyan,lightgreen);
+  width: 30%;
+  box-shadow: 10px 10px 40px lightpink;
+  border-radius: 10px;
+  border-left: 7px solid;
+  border-image: linear-gradient(gray,black);
+  border-image-slice: 1;
+  padding-bottom: 100px;
+  transition: width 2s;
+}
+
+#services .container .box:hover{
+  width: 33%;
+}
+
+
+
+#services .container .box h1{
+  padding: 15px;
+  text-align: center;
+}
+
+#services .container .box p{
+  text-align: left;
+  padding-top: 40px;
+}
+
+
+
+#services .container .box-middle{
+  background-image: linear-gradient(tomato,lightblue);
+  border-left: 7px solid;
+  border-image: linear-gradient(darkblue,white);
+  border-image-slice: 1;
+}
+
+#services .container .box-middle p{
+  text-align: center;
+}
+
+#about{
+  margin-bottom: 100px;
+}
+
+#about .container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#about .container .box{
+  width: 30%;
+  text-align: center;
+  background-image: linear-gradient(lightblue,khaki);
+  padding-bottom: 100px;
+  border-left: 8px solid;
+  border-image: linear-gradient(rgb(36, 48, 211),purple);
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px green;
+  transition: width 2s;
+}
+
+#about .container .box:hover{
+  width: 33%;
+}
+
+
+
+#about .container .box h1{
+  font-size: 36px;
+  padding: 15px;
+}
+
+#about .container .box p{
+  text-align: center;
+}
+
+#about .container .box img{
+  width: 100%;
+}
+
+.about-heading{
+  font-size: 50px;
+  text-align: center;
+  color: orange;
+  padding: 20px;
+}
+
+#contact{
+  background: cadetblue;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+#contact h1{
+  text-align: center;
+  padding: 15px;
+  color: whitesmoke;
+}
+
+#contact .container{
+  height: 200px;
+  width: 300px;
+  margin: 100px auto;
+  background: darkblue;
+  border-radius: 15px;
+  
+}
+
+#contact .group-name{
+  color: whitesmoke;
+  display: block;
+  padding-left: 25px;
+}
+
+#contact .input-name{
+  width: 80%;
+  padding: 5px;
+}
+
+#contact .submit{
+  border: none;
+  margin-top: 40px;
+  margin-left: 100px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  background:yellowgreen;
+  cursor: pointer;
+}
+
+
+footer{
+  background: gray;
+}
+
+footer p{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 22px;
+  padding: 15px;
+}
